@@ -27,6 +27,26 @@ end
 def play(songs)
   puts "Please enter a song name or number:"
   answer = gets.chomp
-  if answer == "1" || answer = "1901"
+  if answer == 1 || answer == "1901"
     puts "Playing 1901"
-  elsif answer == "2"
+  elsif answer == 2 || answer == "Wait Up"
+    puts "Playing Wait Up"
+  elsif answer == 3 || answre == "Too Much"
+    puts "Playing Too Much"
+  elsif answer == 4 || answer == "Young Blood"
+    puts "Playing Young Blood"
+  elsif answer == 5 || answer == "Tiga"
+    puts "Playing Tiga"
+  elsif answer == 6 || answer == "Abducted"
+    puts "Playing Abducted"
+  elsif answer == 7 || answer == "Consolation Prizes"
+    puts "Playing Consolation Prizes"
+  elsif answer == 8 || answer == "Cats in the Cradle"
+    puts "Playing Cats in the Cradle"
+  elsif answer == 9 || answer == "Keep It Loose, Keep It Tight"
+    puts "Playing Keep It Loose, Keep It Tight"
+  else
+    puts "Invalid input, please try again"
+  end
+  
+  
