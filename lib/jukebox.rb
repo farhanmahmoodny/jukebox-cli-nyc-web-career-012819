@@ -27,4 +27,6 @@ end
 def play(songs)
   puts "Please enter a song name or number:"
   answer = gets.chomp
-  if 
+  if answer == "1" || answer = "1901"
+    puts "Playing 1901"
+  elsif answer == "2"
