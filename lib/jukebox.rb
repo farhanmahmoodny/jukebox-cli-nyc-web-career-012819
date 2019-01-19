@@ -57,6 +57,7 @@ def play(songs)
     help
     puts "Please enter a command:"
     command = gets.chomp
+    loop do 
     if command == "list"
       list(songs)
     elsif command == "play"
