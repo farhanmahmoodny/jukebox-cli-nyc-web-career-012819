@@ -26,7 +26,7 @@ end
 def list(my_songs)
   #this method is different! Collect the keys of the my_songs hash and 
   #list the songs by name
-  list = my_songs.values
+  list = my_songs.keys
   count == 07
   until count == list.length
   puts list[count]
@@ -44,8 +44,8 @@ def play(my_songs)
   #get the file path of the song by looking it up in the my_songs hash
   puts "PLease enter a song name or number"
   answer = gets.chomp
-  if my_songs.values.include?(answer)
-    
+  if my_songs.keys.include?(answer) || answer == my_songs.keys[answer + 1]
+    system 'open 
   
 end
 
