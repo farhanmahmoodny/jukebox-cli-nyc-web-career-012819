@@ -69,4 +69,5 @@ def play(songs)
       break
     end
   end
+end
 
