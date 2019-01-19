@@ -31,7 +31,7 @@ def play(songs)
     puts "Playing 1901"
   elsif answer == 2 || answer == "Wait Up"
     puts "Playing Wait Up"
-  elsif answer == 3 || answre == "Too Much"
+  elsif answer == 3 || answer == "Too Much"
     puts "Playing Too Much"
   elsif answer == 4 || answer == "Young Blood"
     puts "Playing Young Blood"
