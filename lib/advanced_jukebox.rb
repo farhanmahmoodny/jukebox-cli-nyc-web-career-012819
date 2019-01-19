@@ -42,7 +42,10 @@ def play(my_songs)
   #if it isn't, tell them their choice is invalid
   #if it is, play the song using the system 'open <file path>' syntax
   #get the file path of the song by looking it up in the my_songs hash
-  puts ""
+  puts "PLease enter a song name or number"
+  answer = gets.chomp
+  if my_songs.values.include?(answer)
+    
   
 end
 
