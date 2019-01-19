@@ -45,7 +45,7 @@ def play(my_songs)
   puts "PLease enter a song name or number"
   answer = gets.chomp
   if my_songs.keys.include?(answer) || answer == my_songs.keys[answer + 1]
-    system 'open 
+    system 'open my_songs.values_at
   
 end
 
